@@ -25,7 +25,7 @@
 <body>
   <header class="header-image navbar-fixed-top">
     <div class="logo-container"></div>
-    <img class="header-logo" src="http://placehold.it/130x130">
+    <img class="header-logo" src="{% static "imgs/logo.png" %}">
     <div class="navbar-top"></div>
     <nav id="top-menu" class="navbar navbar-inverse"  data-page="about" role="navigation">
       <div class="container">
@@ -48,7 +48,7 @@
       </div>
     </nav>
   </header>
-      <div class="content container">
+      <div id="about-page" class="content container">
         <hr class="featurette-divider"/>
         <p>Roller Co. es una empresa líder en la industria de las Cortinas Roller. Nuestros principios fundamentales
           son la responsabilidad, excelencia y la integridad. Los cuales generan diferenciación en relación a la
@@ -56,7 +56,7 @@
           un alto grado de experiencia, dispuestos a resolver las necesidades específicas de cada cliente con un trato
           personalizado.</p>
         <hr class="featurette-divider"/>
-        <img src="http://placehold.it/700x800">
+        <img src="{% static "imgs/About.png" %}">
       </div>
       <footer>
           <div class="row">
